@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "398241302633",
+    "firebase_url": "https://ineslab-73f55-default-rtdb.firebaseio.com",
+    "project_id": "ineslab-73f55",
+    "storage_bucket": "ineslab-73f55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398241302633:android:b4f61e57f83b9798b4baf8",
+        "android_client_info": {
+          "package_name": "com.example.ineslab1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMV5FBqDN7X1EOx-Nq4lKmiXjLI__JbMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

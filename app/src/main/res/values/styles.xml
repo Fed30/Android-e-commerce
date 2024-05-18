@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!--Customise there here-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowSoftInputMode">stateAlwaysVisible</item>
+    </style>
+    <style name="Profile_toolbar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!--Customise there here-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/pink</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+    <style name="app_toolbar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!--Customise there here-->
+        <item name="colorPrimary">@color/light_brown</item>
+        <item name="colorPrimaryDark">@color/grey</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="bottom_nav_font">
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&amp;display=swap');
+        <item name="android:windowSoftInputMode">stateAlwaysVisible</item>
+        <item name="colorPrimary">@color/pink_toolbar</item>
+        <item name="colorPrimaryDark">@color/red_logo_accent</item>
+        <item name="colorAccent">@color/red_logo_dark</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="elevation">20dp</item>
+    </style>
+    <style name="heading_font">
+        @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&amp;display=swap');
+    </style>
+    <style name="button" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!--Customise there here-->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+    <style name="sign_in" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!--Customise there here-->
+        <item name="colorPrimary">@color/red_logo_dark</item>
+        <item name="colorPrimaryDark">@color/red_logo</item>
+        <item name="colorAccent">@color/red_logo_accent</item>
+    </style>
+
+
+
+    // new themes
+    <style name="LightTheme" parent="Theme.Material3.Light.NoActionBar">
+        <!--   color for the app bar -->
+        <item name="colorPrimary">@color/red_logo_accent</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/red_logo_accent</item>//@color/light_theme_primary_dark
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+    <style name="btn" parent="Theme.Material3.Light.NoActionBar">
+        <!--   color for the app bar -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/white</item>//@color/light_theme_primary_dark
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="shapeAppearance">@style/btn</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="btn_red" parent="Theme.Material3.Light.NoActionBar">
+        <!--   color for the app bar -->
+        <item name="colorPrimary">@color/red_logo</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/white</item>//@color/light_theme_primary_dark
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="shapeAppearance">@style/btn</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="btn_white" parent="Theme.Material3.Light.NoActionBar">
+        <!--   color for the app bar -->
+        <item name="colorPrimary">@color/white</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>//@color/light_theme_primary_dark
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="shapeAppearance">@style/btn</item>
+        <item name="strokeColor">@color/colorPrimaryDark</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--   color for the app bar -->
+        <item name="colorPrimary">@color/dark_theme_primary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/dark_theme_primary_dark</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/dark_theme_accent</item>
+
+        <item name="android:windowBackground">@color/background_material_dark</item>
+        <item name="android:colorForeground">@color/foreground_material_dark</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
+        <item name="android:colorBackground">@color/background_material_dark</item>
+        <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_dark</item>
+
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/abc_secondary_text_material_light</item>
+        <item name="android:textColorTertiary">@color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_light</item>
+        <item name="android:textColorHint">@color/bright_foreground_disabled_material_dark</item>
+        <item name="android:textColorHintInverse">@color/bright_foreground_disabled_material_light</item>
+        <item name="android:textColorHighlight">@color/highlighted_text_material_dark</item>
+
+        <item name="colorControlNormal">?android:attr/textColorSecondary</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+        <item name="colorButtonNormal">@color/button_material_dark</item>
+        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
+
+        <!-- Used by MediaRouter -->
+        <item name="isLightTheme">false</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.InesLab1" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowSoftInputMode">adjustResize</item>
+
+
+    </style>
+
+    <style name="Theme.InesLab1" parent="Theme.Material3.Light.NoActionBar" >
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="bottomNavigationStyle">@color/material_dynamic_neutral40</item>
+    </style>
+
+
+    <style name="buttonTheme" parent="android:style/Theme.NoTitleBar">
+
+        <item name="android:buttonStyle">@style/button</item>
+    </style>
+
+</resources>

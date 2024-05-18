@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">InesLab1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo">InesLab.</string>
+    <string name="product_desc">This Mousse Cake is a classic. It’s made up of three layers of moist blueberry cake divided
+            by two layers of smooth and creamy blueberry mousse.
+            The whole thing is covered in a white chocolate frosting. Decadently delicious!</string>
+
+
+    <string-array name="categories">
+        <item>Mousse Cake</item>
+        <item>Mini mousse Cake</item>
+        <item>Macarons tray</item>
+        <item>Gift box</item>
+        <item>Choux au craquelin</item>
+    </string-array>
+
+
+    <string-array name="mousse_products">
+        <item>Blueberry mousse cake</item>
+        <item>Cherry mousse cake</item>
+        <item>Coffee mousse cake</item>
+        <item>Passion fruit mousse cake</item>
+    </string-array>
+    <string-array name="mousse_start_price">
+        <item>12.50</item>
+        <item>15.25</item>
+        <item>18.10</item>
+        <item>22.95</item>
+    </string-array>
+    <string-array name="item_basket_price">
+        <item>12.50</item>
+        <item>15.50</item>
+        <item>18.50</item>
+        <item>23.30</item>
+    </string-array>
+    <string-array name="item_basket_name">
+        <item>Blueberry delight</item>
+    </string-array>
+    <string-array name="item_basket_quantity">
+        <item>2</item>
+    </string-array>
+    <integer-array name="quantity">
+        <item>9</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+    </integer-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="spinner">"Choose payment method"</string>
+    <string name="choose_payment_method">Choose payment method</string>
+
+
+</resources>

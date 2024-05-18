@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/indicator_card"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="14dp"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="15dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/notification_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
